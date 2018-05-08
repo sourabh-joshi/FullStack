@@ -1,0 +1,19 @@
+body {
+    background: mistyrose;
+    border: 4px solid grey;
+    /* background: url(https://c1.staticflickr.com/9/8347/8201826779_6b8ec4fa06_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+h1 {
+    color: red;
+}
+
+li {
+    color: rgba(136, 165, 138, 0.63);
+}
+
+h4 {
+    background: rgb(250, 100, 90);
+}

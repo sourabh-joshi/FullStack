@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <div>
+            <label for="fname">First Name:</label>
+            <input name="fname" id="fname" type="text" placeholder="John" required>
+            <label for="lname">Last Name:</label>
+            <input name="lname" id="lname" type="text" placeholder="Smith" required>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input id="male" value="male" type="radio" name="gender">
+            <label for="female">Female</label>
+            <input id="female" value="female" type="radio" name="gender">
+            <label for="other">Other</label>
+            <input id="other" value="other" type="radio" name="gender">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="your email" required>
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+        </div>
+
+        <div>
+            <label>Birthday:
+                <select name="month">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                </select>
+                <select name="day">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="tandc">I agree to the terms and conditions</label>
+            <input type="checkbox" id="tandc" name="tandc">
+        </div>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
