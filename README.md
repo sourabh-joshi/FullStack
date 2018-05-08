@@ -1,1 +1,1 @@
-FullStack
+Path to learning FullStack
