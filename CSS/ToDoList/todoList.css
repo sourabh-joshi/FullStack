@@ -1,0 +1,14 @@
+/* Element Selector */
+li {
+    border: orange 2px solid;
+}
+
+/* id selector  */
+#checkbox3 {
+    background: yellow;
+}
+
+/* class selector */
+.completed {
+    text-decoration: line-through;
+}
