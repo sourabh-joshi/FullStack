@@ -1,0 +1,27 @@
+/* Type Selectors are least speciic */
+
+body {
+    color: red;
+}
+
+ul {
+    color: blue;
+}
+
+li {
+    color: orange
+}
+
+/* Class, Attribute, and Pseudo-Class Selectors*/
+.highlight {
+    color: yellow;
+}
+
+input[type="text"]{
+    color: black;
+}
+
+/* id selectors are most specific */
+#special {
+    color: blueviolet;
+}
