@@ -2,9 +2,9 @@
 ### For this I will be using course by Colt Steele i.e. The Web Developer Bootcamp.
 #### Throughout this path I will be learning following technologies.
 - [x] HTML5
-- [ ] CSS3
-- [ ] JavaScript
+- [x] CSS3
 - [ ] Bootstrap
+- [ ] JavaScript
 - [ ] SemanticUI
 - [ ] DOM Manipulation
 - [ ] jQuery
