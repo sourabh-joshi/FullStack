@@ -1,4 +1,4 @@
-# The path to learning FullStack development.
+# Path to learning FullStack development.
 ### For this I will be using course by Colt Steele i.e. The Web Developer Bootcamp.
 #### Throughout this path I will be learning following technologies.
 - [x] HTML5
